@@ -1,0 +1,36 @@
+	
+			body {
+				font-family: Helvetica, Arial, sans-serif;
+				color: #665544;
+				padding: 015% 015%;}
+
+			h1 {
+			    text-align:center;
+                color:blue;
+				font-family:'DancingScriptRegular';
+				font-size:400%;
+                }
+            
+             h2 {
+				padding: 12px;
+				line-height: 2em;
+                  }
+
+             p {
+				font-family:'DancingScriptRegular';
+               font-weight:normal;
+               font-style:normal;
+               font-size:200%
+                }
+
+
+              i {
+                color:darkgreen;
+                }
+
+
+
+
+
+
+	
