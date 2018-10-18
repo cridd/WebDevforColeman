@@ -1,1 +1,61 @@
+* {
+				font-family: Arial, Verdana, sans-serif;
+				color: black;
+				text-align: center;
+                font-style: oblique;}
+p, * { 
+   font-family: 'AvaraBold'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+
+body {
+  background-image:url(http://erdeidesigns.com/wp-content/uploads/2017/02/background-brown-circle-cut-40973.jpeg)
+}
+
+body {
+				width: 90%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;
+              background-color:pink;
+}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: yellow;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+              background-color: blue;}
+
+.column1 {
+  background-color:pink;
+}
+
+.column2 {
+  background-color:orange;
+}
+
+.column3 {
+  background-color:red;
+}
+
+#feature {
+ background-color: #8CC63E;
+ background-image: url("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1512144050i/24577930._SY540_.jpg");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}
 
