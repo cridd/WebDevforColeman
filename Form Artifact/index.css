@@ -1,0 +1,25 @@
+body {background-color:#F2F4EC;}
+
+
+a {
+  font-size: 120%;
+}
+a:hover {
+  font-weight: inherit;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: yellowgreen;
+}
+footer {
+  text-align: left;
+  padding-top: 50px;
+}
+.error {
+  color: red;
+}
+p {
+  margin-top: 0px;
+}
