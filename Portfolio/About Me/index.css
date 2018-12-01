@@ -25,7 +25,7 @@ body {
 				width: 31.3%;
 				float: left;
 				margin: 1%;
-              background-color:pink;
+              
 }
 			.column3 {
 				margin-right: 0%;}
@@ -33,28 +33,33 @@ body {
 				display: inline;
 				padding: 0.5em;}
 			#nav, #footer {
-				background-color: yellow;
+				background-color: green;
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
               background-color: blue;}
 
+p { 
+    background-color:green;
+    color:#fff;
+}
+
 .column1 {
-  background-color:pink;
+  background-color:#2F4F4F;
 }
 
 .column2 {
-  background-color:orange;
+  background-color:#2F4F4F;
 }
 
 .column3 {
-  background-color:red;
+  background-color:#2F4F4F;
 }
 
 #feature {
- background-color: #8CC63E;
- background-image: url("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1512144050i/24577930._SY540_.jpg");
+ background-color: #2F4F4F;
+ background-image: url("");
  background-size:contain;
  background-position: right;
  background-repeat:no-repeat;}
