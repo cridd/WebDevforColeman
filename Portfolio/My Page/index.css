@@ -1,85 +1,54 @@
-* {
-				font-family: Arial, Verdana, sans-serif;
-				color: black;
-				text-align: center;
-                font-style: oblique;}
-p, * { 
-   font-family: 'AvaraBold'; 
-   font-weight: normal; 
-   font-style: normal; 
-}
+<!DOCTYPE html>
+<html>
 
-
-body {
-  background-image:url("https://i.redd.it/860460glckgz.jpg");
-  background-size:contain;
-  background-repeat:no-repeat;
-  
-}
-
-body {
-				width: 90%;
-				margin: 0 auto;}
-			#content {
-				overflow: auto;}
-			#nav, #feature, #footer {
-				margin: 1%;}
-			.column1, .column2, .column3 {
-				width: 31.3%;
-				float: left;
-				margin: 1%;
-              background-color:pink;
-}
-			.column3 {
-				margin-right: 0%;}
-			li {
-				display: inline;
-				padding: 0.5em;}
-			#nav, #footer {
-				background-color: yellow;
-				padding: 0.5em 0;
-                margin-bottom: 1em;}
-			#feature, .article {
-				height: 10em;
-				margin-bottom: 1em;
-              background-color: orange;}
-
-.column1 {
-  background-color:magenta;
-  background-image: url("https://i.redd.it/ll10akdrmxt01.jpg");
-  background-size:contain;
-  background-repeat:no-repeat;
-}
-
-.column2 {
-  background-color:blue;
-  background-image: url("https://c1.staticflickr.com/7/6080/6098423966_fa5552b4b4_b.jpg");
-  background-size:contain;
-  background-repeat:no-repeat;
-}
-
-.column3 {
-  background-color:orange;
-  text-align: center;
-  background-size:contain;
-  background-repeat:no-repeat;
-
-}
-
-#feature {
- background-color: #8CC63E;
- background-image: url("https://paultthorpe.files.wordpress.com/2015/06/mycelium1.png");
- background-size:contain;
- background-position: right;
- background-repeat:no-repeat;}
-
-video{
- background-size: cover;
- object-fit: cover;
- overflow: hidden;
-  z-index: -100;
-    right: 0;
-    bottom: 0;
-  height: 100%;
-    width: 100%;
-}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Page</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/avara" type="text/css"/>	
+	</head>
+	<body>
+		<div id="header">
+			<h1>My Page</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/index.html" target="_blank">Home</a></li>
+					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/About%20Me/" target="_blank">About Me</a></li>
+					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/My%20Page/" target="_blank">My Page</a></li>
+          <li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Coursework/" target="_blank">Coursework</a></li>
+					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Artifacts/" target="_blank">Artifacts</a></li>
+					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Assignments/" target="_blank">Assignments</a></li>
+          <li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Contact%20Me/" target="_blank">Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				
+			</div>
+			<div class="article column1">
+				<p>Frozen Moth</p>
+			</div>
+			<div class="article column2">
+				<p>Infected Wasp</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cordyceps.jpg/1200px-Cordyceps.jpg" alt="sprouting wasp" height=106>
+			</div>
+			<div class="article column3">
+				<p>Cordycep Fungus Sprouting</p>
+              <div id="video">
+              <video controls autoplay name="media"><source src="https://thumbs.gfycat.com/ForthrightOnlyAtlanticridleyturtle-mobile.mp4" type="video/mp4"></video>
+               
+			</div>
+      </div>       
+		</div>
+      <div>
+      <img src="https://paultthorpe.files.wordpress.com/2015/06/mycelium1.png" alt="mycelium" height=235 >
+           
+     </div>
+    
+		<div id="footer">
+			<p>&copy; Copyright 2018</p>
+		</div>
+	</body>
+</html>
