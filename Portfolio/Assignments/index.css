@@ -1,60 +1,70 @@
-<!DOCTYPE html>
-<html>
+* {
+				font-family: Arial, Verdana, sans-serif;
+				color: black;
+				text-align: center;
+                font-style: oblique;}
+p, * { 
+   font-family: 'AvaraBold'; 
+   font-weight: bold; 
+   font-style: normal; 
+   background-color:;
+   
+}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Assignments</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/avara" type="text/css"/>	
-	</head>
-	<body>
-		<div id="header">
-			<h1>Assignments</h1>
-			<div id="nav">
-        
-				<ul>
-					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/index.html" target="_blank">Home</a></li>
-					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/About%20Me/" target="_blank">About Me</a></li>
-					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/My%20Page/" target="_blank">My Page</a></li>
-          <li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Coursework/" target="_blank">Coursework</a></li>
-					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Artifacts/" target="_blank">Artifacts</a></li>
-					<li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Assignments/" target="_blank">Assignments</a></li>
-          <li><a href="https://cridd.github.io/WebDevforColeman/Portfolio/Contact%20Me/" target="_blank">Contact Me</a></li>
-				</ul>
-			</div>
-		</div>
-    
-		<div id="content">
-			<div id="feature">
-        <h1>Here are my assignments!</h1>
-			</div>
-      
-			<div class="article">
-				
-         <ul>
-          <li><a href="https://cridd.github.io/WebDevforColeman/Module%2001%20Assignment/index.html" target="_blank"><h2>Assignment 1: Webpage</h2></a></li> 
-          <li><a href="https://cridd.github.io/WebDevforColeman/Recipe%20Assignment/index.html" target="_blank"><h2>Assignment 2: Recipe Table</h2></a></li>
-            
-          <li><a href="https://cridd.github.io/WebDevforColeman/Module%2003%20assignment/index.html" target="_blank"><h2>Assignment 3: Cottage Garden</h2></a></li>
-      
-        <li><a href="https://cridd.github.io/WebDevforColeman/Module%2004%20Assignment/index.html" target="_blank"><h2>Assignment 4: Liquid Layout</h2></a></li>
-        <li><a href="https://cridd.github.io/WebDevforColeman/Module%2005/index.html" target="_blank"><h2>Assignment 5: Bullseye!</h2></a></li>
-          
-          
-        
-        <li><a href="https://cridd.github.io/WebDevforColeman/Module%2007%20Assignment/index.html" target="_blank"><h2>Assignment 7: Mako Hotel</h2></a></li>
-        <li><a href="https://cridd.github.io/WebDevforColeman/Module%2008%20Assignment/index.html" target="_blank"><h2>Assignment 8: Grocery List</h2></a></li>
-        <li><a href="https://cridd.github.io/WebDevforColeman/Module%2009%20Assignment/index.html" target="_blank"><h2>Assignment 9: Make Dots</h2></a></li>
-        <li><a href="" target="_blank"><h2>Assignment 10: Site Validation</h2></a></li>
-         
-        </ul>
-			</div>
-		</div>
-    
-		<div id="footer">
-      
-			<p>&copy; Copyright 2018</p>
-		</div>
-	</body>
-</html>
+p {   
+    background-color:green;
+    color:#fff;
+}
+
+h3 {   
+    background-color:green;
+    color:#fff;
+}
+
+body {
+  background-image:url(https://wallpaperplay.com/walls/full/8/6/d/158668.jpg);
+    background-image:cover;
+  font-weight: bold; 
+   font-style: normal; 
+   
+}
+
+
+body {
+				width: 90%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, {
+				width: 31.3%;
+				float: left;
+				margin: 1%;
+              background-color:;
+}
+			
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: green;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+              }
+
+
+h2, h3 {
+  background-color:grey;
+}
+
+
+
+#feature {
+ background-color: #8CC63E;
+ background-image: url("");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}
