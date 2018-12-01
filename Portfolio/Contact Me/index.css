@@ -23,3 +23,72 @@ footer {
 p {
   margin-top: 0px;
 }
+
+
+* {
+				font-family: Arial, Verdana, sans-serif;
+				color: black;
+				text-align: center;
+                font-style: oblique;}
+p, * { 
+   font-family: 'AvaraBold'; 
+   font-weight: bold; 
+   font-style: normal; 
+   background-color:;
+   
+}
+
+p {
+   
+   
+    background-color:black;
+   
+}
+
+body {
+  background-image:url(https://wallpapertag.com/wallpaper/full/8/1/7/538108-vertical-wood-grain-desktop-wallpaper-1920x1080.jpg);
+    background-image:cover;
+  font-weight: bold; 
+   font-style: normal; 
+   
+}
+
+
+body {
+				width: 90%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, {
+				width: 31.3%;
+				float: left;
+				margin: 1%;
+              background-color:;
+}
+			
+			li {
+				display: inline;
+				padding: 0.1em;}
+			#nav, #footer {
+				;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+              }
+
+
+h2, h1, h3 {
+  
+}
+
+
+
+#feature {
+ background-color: #8CC63E;
+ background-image: url("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1512144050i/24577930._SY540_.jpg");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}
