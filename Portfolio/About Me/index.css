@@ -40,7 +40,8 @@ body {
 				margin-bottom: 1em;
               background-color: blue;}
 
-p { 
+
+p, h1, h2, h3 { 
     background-color:green;
     color:#fff;
 }
