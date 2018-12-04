@@ -34,16 +34,23 @@ p, * {
    font-family: 'AvaraBold'; 
    font-weight: bold; 
    font-style: normal; 
-   background-color:;
-   
+   background-color:;  
 }
 
-p {
-   
-   
+p {  
     background-color:black;
-   
 }
+
+	    li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: green;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+         }
 
 body {
   background-image:url(https://wallpapertag.com/wallpaper/full/8/1/7/538108-vertical-wood-grain-desktop-wallpaper-1920x1080.jpg);
@@ -80,8 +87,9 @@ body {
               }
 
 
-h2, h1, h3 {
-  
+ h1 { 
+    background-color:green;
+    color:#fff;
 }
 
 
