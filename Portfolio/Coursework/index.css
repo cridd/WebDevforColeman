@@ -7,7 +7,7 @@ p, * {
    font-family: 'AvaraBold'; 
    font-weight: bold; 
    font-style: normal; 
-   background-color:;
+  
    
 }
 
@@ -19,7 +19,7 @@ p {
 }
 
 body {
-  background-image:url(https://wallpaperplay.com/walls/full/8/6/d/158668.jpg);
+  background-image:url(https://cdn.hipwallpaper.com/i/50/54/oI65j8.jpg);
     background-image:cover;
   font-weight: bold; 
    font-style: normal; 
@@ -53,8 +53,17 @@ body {
               }
 
 
-h2, h1, h3 {
+ h2 {
   background-color:grey;
+}
+
+p, h1, h3 { 
+    background-color:green;
+    color:#fff;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 
@@ -65,3 +74,5 @@ h2, h1, h3 {
  background-size:contain;
  background-position: right;
  background-repeat:no-repeat;}
+
+
