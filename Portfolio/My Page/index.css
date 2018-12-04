@@ -44,9 +44,8 @@ body {
 				margin-bottom: 1em;
              }
 
-p {
-   
-   
+
+p, h1 { 
     background-color:green;
     color:#fff;
 }
