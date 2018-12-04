@@ -11,15 +11,12 @@ p, * {
    
 }
 
-p {   
+
+p, h1, h3 { 
     background-color:green;
     color:#fff;
 }
 
-h3 {   
-    background-color:green;
-    color:#fff;
-}
 
 body {
   background-image:url(https://wallpaperplay.com/walls/full/8/6/d/158668.jpg);
@@ -56,7 +53,7 @@ body {
               }
 
 
-h2, h3 {
+h2 {
   background-color:grey;
 }
 
@@ -68,3 +65,4 @@ h2, h3 {
  background-size:contain;
  background-position: right;
  background-repeat:no-repeat;}
+
